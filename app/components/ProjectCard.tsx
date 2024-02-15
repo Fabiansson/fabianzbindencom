@@ -20,11 +20,8 @@ export default function ProjectCard(props: ProjectCardProps) {
       <div className="basis-3/4 p-4 flex flex-col justify-between">
         {/* Title and Text */}
         <div>
-          <h2 className="text-gray-900 font-bold text-xl">Title</h2>
-          <p className="text-gray-600 mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
-            velit vitae tortor posuere placerat.
-          </p>
+          <h2 className="text-gray-900 font-bold text-xl">{props.title}</h2>
+          <p className="text-gray-600 mt-2">{props.text}</p>
         </div>
 
         {/* Badges */}
